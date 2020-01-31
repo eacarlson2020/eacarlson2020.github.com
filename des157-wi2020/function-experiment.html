@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var userNum = prompt("will gift me a whole number?", "");
+        var snack = ["Numbers", "Letters", "Special Chararacters"];
+ 
+    function yellingCase(){
+
+        var myString = "hello user";
+        var upperString = myString.toUpperCase();
+        console.log(upperString);
+    }
+    yellingCase();
+    
+    function whisperingCase(){
+
+var myString = "my favorite snack is large whole numbers";
+var lowerString = myString.toLowerCase();
+console.log(lowerString);
+}
+whisperingCase();
+   
+    
+    function checkNum(){
+        if(userNum < 5){
+            console.log("This is not enough to eat");
+            for (var i=0; i<5; i++){
+                console.log(`So is ${i}`);
+            }
+        } else if (userNum > 5) {
+            console.log("excellent this is a large tasty number");
+        } 
+    }
+    checkNum();
+
+    function randomInt( min, max ) {
+    
+        if (userNum < 50) {
+            var numOfValues = max - min + 1;
+        console.log( numOfValues, "This is my favorite number");
+        }
+        else {console.log("You got my favorite number!")}
+    }
+    randomInt(1, 50); 
+   
+    function integer(){
+    if(parseInt(userNum)){
+        console.log(snack[1]);
+    }
+        else{ console.log((snack[0]));}
+    }
+    integer();
+
+    function snacks() {
+        for (var i=0; i<100; i++){
+       
+    }
+    snacks();
+    }
+
+    </script>
+
+</body>
+</html>
