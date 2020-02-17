@@ -1,0 +1,14 @@
+body {
+    padding-left: 10em;
+    padding-right: 10em;
+
+}
+p {
+    line-height: 2em;
+}
+div.a {
+    text-indent: 50px;
+  }
+  h1 h2 {
+    text-align: right;
+  }
