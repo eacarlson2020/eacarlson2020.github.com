@@ -1,0 +1,90 @@
+body {
+    
+    height: 1000px;
+    font-family: 'Lacquer', sans-serif;
+    text-align: center;
+    padding-top: 40px;
+
+}
+p {
+    color:white;
+}
+input {
+    display: block; 
+    margin-bottom: 20px;
+   text-align: center;
+
+}
+
+
+.invisible { display: none}
+.visible {
+    display: block;
+    position: absolute;
+    margin-left: 255px;
+    margin-right: auto;
+    margin-top: 700px;
+    top: 50px;
+    left: 50px;
+    width: 600px;
+    padding: 50px;
+    line-height: 50px;
+    color: #fff;
+    background-color: #666;
+}
+
+input[type=button][value]{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+   text-align: center;
+}
+div{
+    display: block;
+    text-align: center;
+   
+}
+form {
+    padding-top: 10em;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.one {
+    background-color:#a08d0a; 
+    transition: all 3s;
+}
+.two{
+background-color: blueviolet; 
+transition: all 3s;
+}
+.three {
+background-color: #18011b; 
+transition: all 3s
+}
+.four {
+background-color: #7440ad;
+transition: all 3s;
+}
+.five {
+background-color: #5d1b12;
+transition: all 3s;
+}
+
+
+.big {
+    background-color: yellow;
+    width: 1300px;
+    height: 100px;
+    transition: all 2s;
+}
+
+h1  {
+    width: 100px;
+    height: 30px;
+    
+    background-color: #a08d0a;
+    transition: all 2s;
+}

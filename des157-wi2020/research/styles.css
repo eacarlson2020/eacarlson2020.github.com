@@ -1,6 +1,6 @@
 body {
-    padding-left: 10em;
-    padding-right: 10em;
+    padding-left: 17em;
+    padding-right: 17em;
 
 }
 p {
@@ -9,6 +9,7 @@ p {
 div.a {
     text-indent: 50px;
   }
-  h1 h2 {
-    text-align: right;
+  h1, h3, footer{
+    text-align: center;
   }
+ 
