@@ -12,4 +12,7 @@ div.a {
   h1, h3, footer{
     text-align: center;
   }
- 
+ .center {
+   text-align: center;
+
+ }
