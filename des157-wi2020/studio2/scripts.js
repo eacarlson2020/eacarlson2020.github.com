@@ -6,7 +6,7 @@ let myPhotos = [
 			"charger.jpg"
 		];
 		const container = document.getElementById('content');
-		const nextBtn = document.getElementById('Open Backpack');
+		const nextBtn = document.getElementById('openbackpack');
 
 		nextBtn.addEventListener('click', function(event){
 			event.preventDefault();
