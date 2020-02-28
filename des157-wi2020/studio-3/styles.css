@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+   
+}
+header{
+    padding: 2em;
+}
+
+p {
+padding-left: 12em;
+padding-right: 12em;
+line-height: 2em;
+font-family: 'Spartan';
+text-align: left;
+color: #EE4B9B;
+font-size: 10pt;
+}
+h1, h2 {
+    font-family: 'Lobster Two';
+    font-size: 20pt;
+    color: #EE4B9B;
+    
+}
+button {
+    background-color:#EE4B9B;
+    color:white;
+    font-family: 'Spartan';
+    padding:1em;
+}
+div {
+    padding:1em;
+}
+
+.big {
+padding: 2em;
+font-size: 14pt;
+transition: 1s;
+}
