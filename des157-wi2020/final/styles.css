@@ -1,0 +1,16 @@
+body {
+    font-family: 'Courier Prime', monospace;
+    width: 1000;
+    height: 5000;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 1.5em;
+
+}
+
+div {
+    padding: 4em;
+    padding-right: 100px;
+}
